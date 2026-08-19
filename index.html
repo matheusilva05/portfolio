@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matheus Alves — Analista de Dados | Tecnologia da Informação</title>
+<meta name="description" content="Portfólio de Matheus Alves, estudante de Ciência da Computação e profissional de TI em transição para Análise de Dados. Experiência, projetos e habilidades em Python, SQL, Power BI e desenvolvimento web.">
+<meta name="theme-color" content="#0B0E14">
+
+<meta property="og:title" content="Matheus Alves — Analista de Dados | Tecnologia da Informação">
+<meta property="og:description" content="Transformando dados, tecnologia e curiosidade em soluções que geram valor.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="site-header" id="siteHeader">
+  <nav class="nav container" aria-label="Navegação principal">
+    <a href="#inicio" class="logo" aria-label="Matheus Alves — início">
+      <span class="logo-mark">MA</span>
+      <span class="logo-status"><span class="dot"></span>disponível</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#sobre" data-nav>Sobre</a></li>
+      <li><a href="#experiencia" data-nav>Experiência</a></li>
+      <li><a href="#tecnologias" data-nav>Tecnologias</a></li>
+      <li><a href="#projetos" data-nav>Projetos</a></li>
+      <li><a href="#formacao" data-nav>Formação</a></li>
+      <li><a href="#objetivo" data-nav>Objetivo</a></li>
+      <li><a href="#contato" class="nav-cta" data-nav>Contato</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="conteudo">
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <canvas id="dataCanvas" aria-hidden="true"></canvas>
+    <div class="container hero-grid">
+      <div class="hero-copy" data-reveal>
+        <p class="eyebrow mono">Portfólio profissional</p>
+        <h1>
+          Matheus Alves
+        </h1>
+        <p class="hero-role">Analista de Dados <span class="sep">|</span> Tecnologia da Informação</p>
+        <p class="hero-tagline">Transformando dados, tecnologia e curiosidade em soluções que geram valor.</p>
+
+        <div class="hero-actions">
+          <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+          <a href="#sobre" class="btn btn-ghost">Conheça minha trajetória</a>
+          <a href="#" class="btn btn-text" id="downloadCv">Baixar currículo <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+
+      <div class="hero-panel" data-reveal data-reveal-delay="1">
+        <div class="panel-card glass">
+          <div class="panel-head">
+            <span class="mono panel-label">trajetoria.log</span>
+            <span class="panel-dots"><i></i><i></i><i></i></span>
+          </div>
+          <ul class="panel-flow">
+            <li><span class="mono">01</span>Suporte Técnico &amp; Infraestrutura</li>
+            <li><span class="mono">02</span>Desenvolvimento Web</li>
+            <li><span class="mono">03</span>Análise de dados &amp; BI</li>
+          </ul>
+          <div class="panel-chart" aria-hidden="true">
+            <svg viewBox="0 0 300 90" class="sparkline">
+              <polyline class="spark-line" points="0,70 40,60 80,62 120,45 160,48 200,25 240,30 300,10" />
+              <polyline class="spark-fill" points="0,70 40,60 80,62 120,45 160,48 200,25 240,30 300,10 300,90 0,90" />
+            </svg>
+            <span class="mono panel-metric">crescimento contínuo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a class="scroll-cue mono" href="#sobre" aria-label="Rolar para a seção Sobre">
+      <span>scroll</span>
+      <span class="scroll-line"></span>
+    </a>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="section" id="sobre">
+    <div class="container">
+      <p class="section-eyebrow mono" data-reveal>Sobre</p>
+      <h2 class="section-title" data-reveal>Da infraestrutura aos insights</h2>
+
+      <div class="about-grid">
+        <div class="about-text" data-reveal>
+          <p>Sou estudante de Ciência da Computação e profissional de TI, atualmente atuando com Suporte Técnico. Ao longo do caminho, ganhei experiência real em atendimento e resolução de problemas de tecnologia, suporte a usuários, hardware, software e análise de demandas — o tipo de rotina que ensina a diagnosticar problemas com método e paciência.</p>
+          <p>Também construí experiência com desenvolvimento web, o que me aproximou da lógica por trás dos sistemas que hoje sustentam decisões de negócio. Foi esse contato que despertou meu interesse real pela área de Dados: entender não só como os sistemas funcionam, mas o que as informações que eles geram podem revelar.</p>
+          <p>Hoje, direciono minha carreira para transformar dados em informações úteis, aplicando ferramentas de análise, visualização e programação para apoiar decisões melhores.</p>
+        </div>
+
+        <div class="about-flow" data-reveal data-reveal-delay="1">
+          <div class="flow-step glass">
+            <span class="mono flow-tag">ponto de partida</span>
+            <h3>Suporte &amp; Infraestrutura</h3>
+            <p>Diagnóstico, resolução de problemas e atendimento direto a usuários.</p>
+          </div>
+          <div class="flow-connector" aria-hidden="true"></div>
+          <div class="flow-step glass">
+            <span class="mono flow-tag">expansão</span>
+            <h3>Desenvolvimento Web</h3>
+            <p>Construção de interfaces, lógica de sistemas e integração de funcionalidades.</p>
+          </div>
+          <div class="flow-connector" aria-hidden="true"></div>
+          <div class="flow-step glass flow-step-current">
+            <span class="mono flow-tag">direção atual</span>
+            <h3>Dados &amp; Análise</h3>
+            <p>Python, SQL e BI aplicados a insights que apoiam decisões.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIÊNCIA -->
+  <section class="section section-alt" id="experiencia">
+    <div class="container">
+      <p class="section-eyebrow mono" data-reveal>Experiência</p>
+      <h2 class="section-title" data-reveal>Trajetória profissional</h2>
+
+      <ol class="timeline">
+        <li class="timeline-item" data-reveal>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content glass">
+            <span class="mono timeline-tag">05/2025 — atual</span>
+            <h3>Suporte Técnico TI</h3>
+            <p class="timeline-org">Faculdade Anhembi Morumbi</p>
+            <ul>
+              <li>Atendimento e suporte a docentes, discentes e colaboradores</li>
+              <li>Diagnóstico e resolução de problemas de hardware e software</li>
+              <li>Suporte presencial e remoto</li>
+              <li>Análise de demandas e busca de soluções</li>
+              <li>Apoio ao funcionamento dos ambientes tecnológicos da instituição</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline-item" data-reveal>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content glass">
+            <span class="mono timeline-tag">09/2024 — 04/2025</span>
+            <h3>Auxiliar de Operações</h3>
+            <p class="timeline-org">Faculdade Anhembi Morumbi</p>
+            <ul>
+              <li>Apoio ao funcionamento do campus</li>
+              <li>Encaminhamento de demandas para diferentes setores</li>
+              <li>Comunicação com equipes internas e empresas terceirizadas</li>
+              <li>Organização e acompanhamento de documentos e solicitações</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline-item" data-reveal>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content glass">
+            <span class="mono timeline-tag">09/2023 — 08/2024</span>
+            <h3>Jovem Aprendiz Administrativo</h3>
+            <p class="timeline-org">Faculdade Anhembi Morumbi</p>
+            <ul>
+              <li>Atendimento e suporte a alunos e professores</li>
+              <li>Apoio às atividades administrativas</li>
+              <li>Atuação nos Studios de Comunicação e Design</li>
+              <li>Organização de documentos e demandas</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- TECNOLOGIAS -->
+  <section class="section" id="tecnologias">
+    <div class="container">
+      <p class="section-eyebrow mono" data-reveal>Tecnologias</p>
+      <h2 class="section-title" data-reveal>Ferramentas que uso</h2>
+
+      <div class="tech-groups">
+        <div class="tech-group" data-reveal>
+          <h3 class="tech-group-title"><span class="mono">01</span>Dados</h3>
+          <div class="tech-chips">
+            <span class="chip">Python</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Excel</span>
+            <span class="chip">Power BI</span>
+            <span class="chip">Power Query</span>
+          </div>
+        </div>
+
+        <div class="tech-group" data-reveal data-reveal-delay="1">
+          <h3 class="tech-group-title"><span class="mono">02</span>Desenvolvimento</h3>
+          <div class="tech-chips">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">GitHub</span>
+          </div>
+        </div>
+
+        <div class="tech-group" data-reveal data-reveal-delay="2">
+          <h3 class="tech-group-title"><span class="mono">03</span>Banco de Dados</h3>
+          <div class="tech-chips">
+            <span class="chip">PostgreSQL</span>
+            <span class="chip">SQLite</span>
+            <span class="chip">Oracle</span>
+          </div>
+        </div>
+
+        <div class="tech-group" data-reveal data-reveal-delay="3">
+          <h3 class="tech-group-title"><span class="mono">04</span>Ferramentas</h3>
+          <div class="tech-chips">
+            <span class="chip">Figma</span>
+            <span class="chip">VS Code</span>
+            <span class="chip">Google Colab</span>
+            <span class="chip">Kaggle</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="section section-alt" id="projetos">
+    <div class="container">
+      <p class="section-eyebrow mono" data-reveal>Projetos</p>
+      <h2 class="section-title" data-reveal>O que venho construindo</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card glass" data-reveal>
+          <div class="project-thumb" aria-hidden="true">
+            <div class="thumb-window">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="thumb-body">
+              <div class="thumb-bar" style="--w:78%"></div>
+              <div class="thumb-bar" style="--w:52%"></div>
+              <div class="thumb-bar" style="--w:65%"></div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>MedFlux</h3>
+            <p>Sistema web para gestão de atendimentos médicos, com áreas dedicadas para pacientes, médicos e administradores. Reúne dashboards, consultas, exames, histórico, calendário, notificações, relatórios e exportação de dados.</p>
+            <div class="tech-chips tech-chips-sm">
+              <span class="chip">Dashboards</span>
+              <span class="chip">Relatórios</span>
+              <span class="chip">Web</span>
+            </div>
+            <div class="project-actions">
+              <span class="project-status mono">Em desenvolvimento</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass" data-reveal data-reveal-delay="1">
+          <div class="project-thumb" aria-hidden="true">
+            <div class="thumb-window">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="thumb-body thumb-body-grid">
+              <div class="thumb-tile"></div>
+              <div class="thumb-tile"></div>
+              <div class="thumb-tile"></div>
+              <div class="thumb-tile"></div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>FoodMart</h3>
+            <p>Projeto de e-commerce desenvolvido para praticar desenvolvimento web, estruturação de interfaces e integração entre diferentes funcionalidades.</p>
+            <div class="tech-chips tech-chips-sm">
+              <span class="chip">E-commerce</span>
+              <span class="chip">Front-end</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/matheusilva05/Mart-Sneakers" class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Ver no GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass" data-reveal data-reveal-delay="2">
+          <div class="project-thumb" aria-hidden="true">
+            <div class="thumb-window">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="thumb-body">
+              <div class="thumb-counter mono">00:00</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Calculadora de Tempo de Vida</h3>
+            <p>Projeto web desenvolvido com HTML, CSS e JavaScript para calcular e visualizar quanto tempo de trabalho é necessário para adquirir um produto. A ideia é transformar dinheiro em algo mais tangível — o seu tempo.</p>
+            <div class="tech-chips tech-chips-sm">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">JavaScript</span>
+            </div>
+            <div class="project-actions">
+              <span class="project-status mono">Em desenvolvimento</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass" data-reveal data-reveal-delay="3">
+          <div class="project-thumb" aria-hidden="true">
+            <div class="thumb-window">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="thumb-body">
+              <svg viewBox="0 0 200 60" class="thumb-spark">
+                <polyline points="0,45 30,30 60,38 90,15 120,22 150,8 180,18" />
+              </svg>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Projetos de Dados</h3>
+            <p>Análises exploratórias com Python, Pandas, SQL, Excel e Power BI — do tratamento dos dados à construção de gráficos, indicadores e insights.</p>
+            <div class="tech-chips tech-chips-sm">
+              <span class="chip">Python</span>
+              <span class="chip">Power BI</span>
+              <span class="chip">SQL</span>
+            </div>
+            <div class="project-actions">
+              <span class="project-status mono">Em desenvolvimento</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass" data-reveal>
+          <div class="project-thumb" aria-hidden="true">
+            <div class="thumb-window">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="thumb-body">
+              <div class="thumb-bar" style="--w:78%"></div>
+              <div class="thumb-bar" style="--w:52%"></div>
+              <div class="thumb-bar" style="--w:65%"></div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Sistema de Chamados Automatizado com Microsoft 365</h3>
+            <p>Sistema de chamados automatizado com o objetivo de otimizar e agilizar o tempo de atendimento em solicitações de suporte técnico de TI, contribuindo diretamente para a melhoria da comunicação, organização dos chamados e eficiência operacional do suporte.</p>
+            <div class="tech-chips tech-chips-sm">
+              <span class="chip">Microsoft 365</span>
+              <span class="chip">Microsoft Forms</span>
+              <span class="chip">Power Automate</span>
+              <span class="chip">Relatórios</span>
+              <span class="chip">Microsoft Teams</span>
+            </div>
+            <div class="project-actions">
+              <span class="project-status mono">Em desenvolvimento</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass" data-reveal>
+          <div class="project-thumb" aria-hidden="true">
+            <div class="thumb-window">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="thumb-body">
+              <div class="thumb-bar" style="--w:78%"></div>
+              <div class="thumb-bar" style="--w:52%"></div>
+              <div class="thumb-bar" style="--w:65%"></div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>TecMatch</h3>
+            <p>Motivado pelo desejo de tornar o aprendizado de matemática mais atrativo e significativo para estudantes da rede pública, do Ensino Fundamental II ao Ensino Médio. O projeto demonstra como o conhecimento matemático pode ser aplicado na prática, tanto na escola quanto no cotidiano e no mercado de trabalho.</p>
+            <div class="tech-chips tech-chips-sm">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">JavaScript</span>
+            </div>
+            <div class="project-actions">
+              <span class="project-status mono">Em desenvolvimento</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMAÇÃO -->
+  <section class="section" id="formacao">
+    <div class="container">
+      <p class="section-eyebrow mono" data-reveal>Formação &amp; Cursos</p>
+      <h2 class="section-title" data-reveal>Base acadêmica</h2>
+
+      <div class="edu-grid">
+        <div class="edu-card glass" data-reveal>
+          <div class="edu-mark mono">CC</div>
+          <div class="edu-info">
+            <h3>Bacharelado em Ciência da Computação</h3>
+            <p class="edu-status"><span class="dot"></span>Em andamento · Anhembi Morumbi</p>
+          </div>
+        </div>
+
+        <div class="edu-card glass" data-reveal>
+          <div class="edu-mark mono">SQ</div>
+          <div class="edu-info">
+            <h3>SQLite</h3>
+            <p class="edu-status"><span class="dot dot-done"></span>Concluído · Alura</p>
+          </div>
+        </div>
+
+        <div class="edu-card glass" data-reveal>
+          <div class="edu-mark mono">MD</div>
+          <div class="edu-info">
+            <h3>Modelagem de Dados</h3>
+            <p class="edu-status"><span class="dot dot-done"></span>Concluído · Fundação Bradesco</p>
+          </div>
+        </div>
+
+        <div class="edu-card glass" data-reveal>
+          <div class="edu-mark mono">PY</div>
+          <div class="edu-info">
+            <h3>Python</h3>
+            <p class="edu-status"><span class="dot"></span>Em andamento · Alura</p>
+          </div>
+        </div>
+
+        <div class="edu-card glass" data-reveal>
+          <div class="edu-mark mono">XL</div>
+          <div class="edu-info">
+            <h3>Excel</h3>
+            <p class="edu-status"><span class="dot"></span>Em andamento · Fundação Bradesco</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OBJETIVO -->
+  <section class="section section-alt objetivo" id="objetivo">
+    <div class="container">
+      <p class="section-eyebrow mono" data-reveal>Objetivo</p>
+      <h2 class="section-title" data-reveal>Para onde estou indo</h2>
+      <p class="objetivo-text" data-reveal>
+        Meu objetivo é atuar profissionalmente como <strong>Analista de Dados</strong>, unindo tecnologia, programação e análise para resolver problemas reais e transformar dados em insights que apoiem decisões melhores.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section contact" id="contato">
+    <div class="container">
+      <p class="section-eyebrow mono" data-reveal>Contato</p>
+      <h2 class="section-title" data-reveal>Vamos conversar</h2>
+      <p class="contact-lead" data-reveal>Aberto a oportunidades na área de Dados e Tecnologia. Envie uma mensagem ou me encontre nas redes abaixo.</p>
+
+      <div class="contact-grid" data-reveal data-reveal-delay="1">
+        <a href="mailto:matheusalveshen06@gmail.com" class="contact-card glass">
+          <span class="contact-label mono">e-mail</span>
+          <span class="contact-value">matheusalveshen06@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/matheus-henrique-alves-silva/" class="contact-card glass" target="_blank" rel="noopener">
+          <span class="contact-label mono">linkedin</span>
+          <span class="contact-value">/in/matheus-henrique-alves-silva</span>
+        </a>
+        <a href="https://github.com/matheusilva05" class="contact-card glass" target="_blank" rel="noopener">
+          <span class="contact-label mono">github</span>
+          <span class="contact-value">matheusilva05</span>
+        </a>
+      </div>
+
+      <a href="mailto:matheusalveshen06@gmail.com" class="btn btn-primary btn-lg" data-reveal>Entrar em contato</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <span class="mono">© <span id="year"></span> Matheus Alves</span>
+    <span class="mono">Rumo à Análise de Dados</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
