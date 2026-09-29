@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matheus Henrique Alves Silva — Suporte de TI & Análise de Dados</title>
+  <meta name="description" content="Estudante de Ciência da Computação com experiência em Suporte Técnico de TI, infraestrutura e Análise de Dados com Excel, SQL e Power BI." />
+  <meta name="author" content="Matheus Henrique Alves Silva" />
+  <meta name="theme-color" content="#0a0e17" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Matheus Henrique Alves Silva — Suporte de TI & Análise de Dados" />
+  <meta property="og:description" content="Portfólio profissional: Suporte Técnico de TI, Infraestrutura e Business Intelligence." />
+  <meta property="og:locale" content="pt_BR" />
+
+  <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)" />
+  <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin />
+  <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap)" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='[w3.org](http://www.w3.org/2000/svg)' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>" />
+</head>
+<body>
+  <!-- ===== Skip link (acessibilidade) ===== -->
+  <a href="#sobre" class="skip-link">Pular para o conteúdo</a>
+
+  <!-- ===== Barra de progresso de scroll ===== -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ===== Header / Navegação ===== -->
+  <header class="site-header" id="header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a href="#" class="nav__logo" aria-label="Início">
+        <span class="nav__logo-mark">MH</span>
+        <span class="nav__logo-text">Matheus<span class="text-gradient">.</span>Henrique</span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#sobre" class="nav__link">Sobre</a></li>
+        <li><a href="#experiencia" class="nav__link">Experiência</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#projetos" class="nav__link">Projetos</a></li>
+        <li><a href="#formacao" class="nav__link">Formação</a></li>
+        <li><a href="#contato" class="nav__link nav__link--cta">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__glow hero__glow--1"></div>
+        <div class="hero__glow hero__glow--2"></div>
+        <div class="hero__grid"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <p class="hero__eyebrow">
+            <span class="status-dot" aria-hidden="true"></span>
+            Disponível para oportunidades
+          </p>
+
+          <h1 class="hero__title">
+            Matheus Henrique<br />
+            <span class="text-gradient">Alves Silva</span>
+          </h1>
+
+          <p class="hero__subtitle">
+            <span class="typewriter" id="typewriter" aria-live="polite"></span>
+            <span class="caret" aria-hidden="true"></span>
+          </p>
+
+          <p class="hero__description">
+            Estudante de Ciência da Computação com experiência em Suporte Técnico de TI,
+            atendimento a usuários, manutenção de computadores, infraestrutura e resolução de
+            incidentes. Conhecimentos em Análise de Dados com Excel, SQL e Power BI para
+            transformar dados em decisões.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#projetos" class="btn btn--primary">
+              Ver projetos
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#contato" class="btn btn--ghost">Entrar em contato</a>
+          </div>
+
+          <ul class="hero__meta">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              São Paulo, SP
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg>
+              (11) 97608-3950
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg>
+              matheushasilva06@gmail.com
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero__visual reveal" aria-hidden="true">
+          <div class="code-window">
+            <div class="code-window__bar">
+              <span class="dot dot--red"></span>
+              <span class="dot dot--yellow"></span>
+              <span class="dot dot--green"></span>
+              <span class="code-window__title">perfil.ts</span>
+            </div>
+            <pre class="code-window__body"><code><span class="c-key">const</span> <span class="c-var">matheus</span> = {
+  <span class="c-prop">formacao</span>: <span class="c-str">"Ciência da Computação"</span>,
+  <span class="c-prop">foco</span>: [<span class="c-str">"Suporte de TI"</span>,
+           <span class="c-str">"Infraestrutura"</span>,
+           <span class="c-str">"Dados & BI"</span>],
+  <span class="c-prop">stack</span>: [<span class="c-str">"SQL"</span>, <span class="c-str">"Power BI"</span>,
+           <span class="c-str">"Excel"</span>, <span class="c-str">"TI"</span>],
+  <span class="c-prop">softSkills</span>: [<span class="c-str">"Analítico"</span>,
+               <span class="c-str">"Comunicação"</span>,
+               <span class="c-str">"Melhoria contínua"</span>],
+  <span class="c-fn">disponivel</span>: () <span class="c-key">=></span> <span class="c-bool">true</span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+
+      <a href="#sobre" class="hero__scroll" aria-label="Rolar para baixo">
+        <span class="mouse"><span class="mouse__wheel"></span></span>
+      </a>
+    </section>
+
+    <!-- ===== SOBRE ===== -->
+    <section class="section" id="sobre">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__tag">01 — Perfil</span>
+          <h2 class="section__title">Sobre mim</h2>
+        </header>
+
+        <div class="about">
+          <div class="about__text reveal">
+            <p>
+              Sou estudante de <strong>Ciência da Computação</strong> na Universidade Anhembi Morumbi,
+              com trajetória construída em ambientes acadêmicos de alta demanda. Atuo no suporte
+              direto a alunos, docentes e colaboradores, resolvendo incidentes de
+              <strong>hardware</strong>, <strong>software</strong>, <strong>sistemas operacionais</strong> e
+              <strong>rede</strong>.
+            </p>
+            <p>
+              Tenho perfil analítico e olhar voltado para <strong>melhoria contínua de processos</strong>.
+              Organizo e gerencio incidentes com foco em SLA e documentação, além de aplicar boas
+              práticas de <strong>Segurança da Informação</strong> no dia a dia.
+            </p>
+            <p>
+              Na trilha de dados, realizo <strong>limpeza, tratamento e análise</strong> utilizando
+              <strong>Excel</strong>, <strong>SQL</strong> e <strong>Power BI</strong>, gerando informações que
+              apoiam a tomada de decisão.
+            </p>
+          </div>
+
+          <div class="about__cards">
+            <article class="stat-card reveal">
+              <span class="stat-card__value" data-count="2" data-suffix="+">0</span>
+              <span class="stat-card__label">Anos em ambientes de TI</span>
+            </article>
+            <article class="stat-card reveal">
+              <span class="stat-card__value" data-count="3" data-suffix="">0</span>
+              <span class="stat-card__label">Experiências profissionais</span>
+            </article>
+            <article class="stat-card reveal">
+              <span class="stat-card__value" data-count="3" data-suffix="">0</span>
+              <span class="stat-card__label">Frentes de atuação</span>
+            </article>
+            <article class="stat-card reveal">
+              <span class="stat-card__value" data-count="2027" data-suffix="">0</span>
+              <span class="stat-card__label">Formatura prevista -Graduação</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIÊNCIA ===== -->
+    <section class="section section--alt" id="experiencia">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__tag">02 — Trajetória</span>
+          <h2 class="section__title">Experiência profissional</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline__item reveal">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role">Técnico de Suporte TI I</h3>
+                  <p class="timeline__org">Universidade Anhembi Morumbi</p>
+                </div>
+                <span class="badge badge--current">Mai 2025 — Atual</span>
+              </div>
+              <ul class="timeline__list">
+                <li>Atendimento técnico a alunos, docentes e colaboradores.</li>
+                <li>Diagnóstico e resolução de problemas de hardware, software, sistemas operacionais e rede.</li>
+                <li>Instalação e configuração de softwares e suporte aos ambientes acadêmicos.</li>
+                <li>Apoio às boas práticas de Segurança da Informação.</li>
+                <li>Controle de equipamentos e suporte à infraestrutura.</li>
+              </ul>
+              <ul class="tags">
+                <li>Help Desk</li><li>Hardware</li><li>Redes</li><li>Windows</li><li>Segurança da Informação</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role">Auxiliar de Operações</h3>
+                  <p class="timeline__org">Universidade Anhembi Morumbi</p>
+                </div>
+                <span class="badge">Set 2024 — Abr 2025</span>
+              </div>
+              <ul class="timeline__list">
+                <li>Apoio operacional ao funcionamento do campus.</li>
+                <li>Organização da infraestrutura para eventos e atividades acadêmicas.</li>
+                <li>Controle da movimentação de equipamentos.</li>
+                <li>Acompanhamento de prestadores de serviços.</li>
+                <li>Atendimento às demandas administrativas.</li>
+              </ul>
+              <ul class="tags">
+                <li>Operações</li><li>Infraestrutura</li><li>Logística</li><li>Atendimento</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role">Jovem Aprendiz</h3>
+                  <p class="timeline__org">Ser+</p>
+                </div>
+                <span class="badge">Set 2023 — Ago 2025</span>
+              </div>
+              <ul class="timeline__list">
+                <li>Atendimento técnico a professores e alunos.</li>
+                <li>Suporte aos Estúdios de Comunicação e Design.</li>
+                <li>Empréstimo e controle de equipamentos.</li>
+                <li>Organização dos recursos tecnológicos utilizados nas aulas.</li>
+              </ul>
+              <ul class="tags">
+                <li>Suporte</li><li>Equipamentos</li><li>Comunicação</li><li>Design</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__tag">03 — Competências</span>
+          <h2 class="section__title">Habilidades técnicas</h2>
+          <p class="section__lead">Ferramentas e conhecimentos aplicados no dia a dia.</p>
+        </header>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-card__icon">📊</div>
+            <h3 class="skill-card__title">Análise de Dados & BI</h3>
+            <ul class="skill-card__list">
+              <li>Power BI</li>
+              <li>Excel</li>
+              <li>Dashboards</li>
+              <li>KPIs e indicadores</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card__icon">🗄️</div>
+            <h3 class="skill-card__title">Banco de Dados & Consultas</h3>
+            <ul class="skill-card__list">
+              <li>SQL</li>
+              <li>Modelagem relacional</li>
+              <li>Consultas</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card__icon">🧰</div>
+            <h3 class="skill-card__title">Ferramentas & Planilhas</h3>
+            <ul class="skill-card__list">
+                <li>Pacote Office</li>
+                <li>Apps Microsoft</li>
+              <li>Excel / Google Sheets</li>
+              <li>Tabelas dinâmicas</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card__icon">🌐</div>
+            <h3 class="skill-card__title">Desenvolvimento Web</h3>
+            <ul class="skill-card__list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card__icon">🖥️</div>
+            <h3 class="skill-card__title">Infraestrutura & Suporte de TI</h3>
+            <ul class="skill-card__list">
+              <li>Manutenção de computadores</li>
+              <li>Windows e pacote Office</li>
+              <li>Redes e conectividade</li>
+              <li>Gestão de incidentes</li>
+              <li>Segurança da Informação</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card__icon">🧠</div>
+            <h3 class="skill-card__title">Soft Skills</h3>
+            <ul class="skill-card__list">
+              <li>Perfil analítico</li>
+              <li>Resolução de problemas</li>
+              <li>Boa comunicação</li>
+              <li>Melhoria contínua</li>
+              <li>Organização</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="bars reveal">
+          <div class="bar">
+            <div class="bar__top"><span>Suporte de TI & Infraestrutura</span><span>90%</span></div>
+            <div class="bar__track"><div class="bar__fill" data-width="90%"></div></div>
+          </div>
+          <div class="bar">
+            <div class="bar__top"><span>Excel & Planilhas</span><span>85%</span></div>
+            <div class="bar__track"><div class="bar__fill" data-width="85%"></div></div>
+          </div>
+          <div class="bar">
+            <div class="bar__top"><span>SQL</span><span>75%</span></div>
+            <div class="bar__track"><div class="bar__fill" data-width="75%"></div></div>
+          </div>
+          <div class="bar">
+            <div class="bar__top"><span>Power BI</span><span>70%</span></div>
+            <div class="bar__track"><div class="bar__fill" data-width="70%"></div></div>
+          </div>
+          <div class="bar">
+            <div class="bar__top"><span>Desenvolvimento Web</span><span>65%</span></div>
+            <div class="bar__track"><div class="bar__fill" data-width="65%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJETOS ===== -->
+    <section class="section section--alt" id="projetos">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__tag">04 — Portfólio</span>
+          <h2 class="section__title">Projetos</h2>
+          <p class="section__lead">
+            Projetos que desenvolvi durante a graduação e estudos próprios, aplicando dados, TI e desenvolvimento web.
+          </p>
+        </header>
+
+        <!-- Filtros -->
+        <div class="filters reveal" role="tablist" aria-label="Filtrar projetos">
+          <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">Todos</button>
+          <button class="filter" data-filter="dados" role="tab" aria-selected="false">Dados & BI</button>
+          <button class="filter" data-filter="sql" role="tab" aria-selected="false">SQL</button>
+          <button class="filter" data-filter="ti" role="tab" aria-selected="false">TI & Infra</button>
+          <button class="filter" data-filter="web" role="tab" aria-selected="false">Web</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Projeto 1 -->
+          <article class="project reveal" data-category="dados">
+            <div class="project__top">
+              <span class="project__dot" aria-hidden="true"></span>
+              <span class="project__cat">Dados & BI</span>
+            </div>
+            <h3 class="project__title">Dashboard de Atendimento e Suporte de TI</h3>
+            <p class="project__desc">
+              Painel em Power BI para acompanhamento de atendimentos de TI, tempo médio de resolução
+              e volume de chamados por categoria e o cumprimento de SLA.
+            </p>
+            <ul class="tags">
+              <li>Power BI</li><li>DAX</li><li>ETL</li>
+            </ul>
+            <a href="https://lnkd.in/p/d4TEBybZ" target="_blank" rel="noopener noreferrer" class="project__link">
+              Ver no Linkedin
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>
+            </a>
+          </article>
+
+          <article class="project reveal" data-category="dados">
+            <div class="project__top">
+              <span class="project__dot" aria-hidden="true"></span>
+              <span class="project__cat">Dados & BI</span>
+            </div>
+            <h3 class="project__title">Dashboard de Análise de Vendas <br> E-commerce</h3>
+            <p class="project__desc">
+              O objetivo foi transformar uma base de vendas em uma visão clara do desempenho comercial, analisando faturamento, lucro, margem, produtos, regiões, canais e performance dos vendedores.
+            </p>
+            <ul class="tags">
+              <li>Power BI</li><li>DAX</li><li>ETL</li>
+            </ul>
+            <a href="https://lnkd.in/p/dqui6TeC" target="_blank" rel="noopener noreferrer" class="project__link">
+              Ver no Linkedin
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>
+            </a>
+          </article>
+
+          <!-- Projeto 2 -->
+          <article class="project reveal" data-category="sql">
+            <div class="project__top">
+              <span class="project__dot" aria-hidden="true"></span>
+              <span class="project__cat">SQL</span>
+            </div>
+            <h3 class="project__title">Modelagem de Banco de Dados Relacional</h3>
+            <p class="project__desc">
+              Concluí o curso de SQL com SQLite pela Alura, no qual desenvolvi um projeto prático voltado à construção de um banco de dados relacional para gestão escolar.
+            </p>
+            <ul class="tags">
+              <li>SQL</li><li>SQLite</li><li>Modelagem</li>
+            </ul>
+            <a href="https://www.linkedin.com/posts/matheus-henrique-alves-silva_sql-sqlite-alura-activity-7452834967203540993-ZGQl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAES9LXIBKB10qI8IFK3Hw0B4c7fA2lIlRUY" target="_blank" rel="noopener noreferrer" class="project__link">
+              Ver no Linkedin
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>
+            </a>
+          </article>
+
+
+          <!-- Projeto 4 -->
+           <article class="project reveal" data-category="ti">
+            <div class="project__top">
+              <span class="project__dot" aria-hidden="true"></span>
+              <span class="project__cat">TI & Infra</span>
+            </div>
+            <h3 class="project__title">Sistema de Chamados Automatizados com a Microsoft 365</h3>
+            <p class="project__desc">
+              O fluxo permite que o usuário registre sua solicitação por meio de um formulário simples, que automaticamente é processado e encaminhado para o canal de suporte em tempo real, contendo informações como o nome do solicitante, o tipo de problema, urgência e descrição.
+            </p>
+            <ul class="tags">
+              <li>Microsoft Forms</li><li>Power Automate</li><li>Infraestrutura</li><li>Microsoft</li>
+            </ul>
+            <a href="https://www.linkedin.com/posts/matheus-henrique-alves-silva_ti-automacao-microsoft365-activity-7455383867370217472-78MV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAES9LXIBKB10qI8IFK3Hw0B4c7fA2lIlRUY" target="_blank" rel="noopener noreferrer" class="project__link">
+              Ver no Linkedin
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>
+            </a>
+          </article>
+
+          <article class="project reveal" data-category="ti">
+            <div class="project__top">
+              <span class="project__dot" aria-hidden="true"></span>
+              <span class="project__cat">TI & Infra</span>
+            </div>
+            <h3 class="project__title">Inventário e Controle de Equipamentos</h3>
+            <p class="project__desc">
+              Planilha/estrutura de controle de patrimônio e movimentação de equipamentos,
+              com registro de responsáveis e status de manutenção.
+            </p>
+            <ul class="tags">
+              <li>Excel</li><li>Processos</li><li>Infraestrutura</li>
+            </ul>
+            
+          </article>
+
+          <!-- Projeto 5 -->
+           <article class="project reveal" data-category="web">
+            <div class="project__top">
+              <span class="project__dot" aria-hidden="true"></span>
+              <span class="project__cat">Web</span>
+            </div>
+            <h3 class="project__title">Calc Temp</h3>
+            <p class="project__desc">
+              Ao invés de apenas ver o preço em reais, você passa a enxergar o custo real: horas, dias ou até semanas do seu esforço. Isso muda completamente a forma de consumir e ajuda a tomar decisões mais conscientes.
+            </p>
+            <ul class="tags">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+            </ul>
+            <a href="https://github.com/matheusilva05/Calculadora-Tempo-de-Valor" target="_blank" rel="noopener noreferrer" class="project__link">
+              Ver no GitHub
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/posts/matheus-henrique-alves-silva_desenvolvimentoweb-javascript-html-activity-7443745893352108032-HghK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAES9LXIBKB10qI8IFK3Hw0B4c7fA2lIlRUY" target="_blank" rel="noopener noreferrer" class="project__link">
+              ou Linkedin
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>
+            </a>
+          </article>
+
+          <article class="project reveal" data-category="web">
+            <div class="project__top">
+              <span class="project__dot" aria-hidden="true"></span>
+              <span class="project__cat">Web</span>
+            </div>
+            <h3 class="project__title">TecMath</h3>
+            <p class="project__desc">
+            Motivada pelo desejo de tornar o aprendizado de matemática mais atrativo e significativo para os estudantes de rede pública do Ensino Fundamental II ao Ensino Médio. Demonstrando como o conhecimento matemático pode ser aplicado na prática, tanto na escola quanto no cotidiano e no mercado de trabalho.
+            </p>
+            <ul class="tags">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+            </ul>
+            <a href="https://github.com/matheusilva05/A3---Estruturas-Matem-ticas" target="_blank" rel="noopener noreferrer" class="project__link">
+              Documentação no GitHub
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/posts/matheus-henrique-alves-silva_o-objetivo-do-projeto-era-criar-um-produto-activity-7352141260431753216-OqlV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAES9LXIBKB10qI8IFK3Hw0B4c7fA2lIlRUY" target="_blank" rel="noopener noreferrer" class="project__link">
+              Ver no Linkedin
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>
+            </a>
+            
+          </article>
+        </div>
+
+        <p class="projects__note reveal">
+          🔗 <em>Repositórios de exemplo.</em> Substitua os links pelo endereço real de cada projeto no GitHub.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== FORMAÇÃO ===== -->
+    <section class="section" id="formacao">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__tag">05 — Educação</span>
+          <h2 class="section__title">Formação acadêmica</h2>
+        </header>
+
+        <div class="education">
+          <article class="edu-card reveal">
+            <span class="edu-card__period">2024 — 2027</span>
+            <h3 class="edu-card__degree">Bacharelado em Ciência da Computação</h3>
+            <p class="edu-card__school">Universidade Anhembi Morumbi</p>
+            <span class="badge badge--current">Cursando</span>
+          </article>
+
+          <article class="edu-card reveal">
+            <span class="edu-card__period">2021 — 2023</span>
+            <h3 class="edu-card__degree">Ensino Médio</h3>
+            <p class="edu-card__school">E. E. Profª Emilia De Paiva Meira</p>
+            <span class="badge">Concluído</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTATO ===== -->
+    <section class="section section--alt" id="contato">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__tag">06 — Contato</span>
+          <h2 class="section__title">Vamos conversar</h2>
+          <p class="section__lead">
+            Estou aberto a oportunidades em Suporte de TI, Infraestrutura e Análise de Dados.
+          </p>
+        </header>
+
+        <div class="contact">
+          <div class="contact__info reveal">
+            <a class="contact__item" href="mailto:matheushasilva06@gmail.com">
+              <span class="contact__icon">✉️</span>
+              <span>
+                <strong>E-mail</strong>
+                <em>matheushasilva06@gmail.com</em>
+              </span>
+            </a>
+            <a class="contact__item" href="tel:+5511976039500">
+              <span class="contact__icon">📞</span>
+              <span>
+                <strong>Telefone</strong>
+                <em>(11) 97608-3950</em>
+              </span>
+            </a>
+            <a class="contact__item" href="https://www.linkedin.com/in/matheus-henrique-alves-silva/" target="_blank" rel="noopener noreferrer">
+              <span class="contact__icon">💼</span>
+              <span>
+                <strong>LinkedIn</strong>
+                <em>/in/matheus-henrique</em>
+              </span>
+            </a>
+            <a class="contact__item" href="https://github.com/matheusilva05" target="_blank" rel="noopener noreferrer">
+              <span class="contact__icon">🐙</span>
+              <span>
+                <strong>GitHub</strong>
+                <em>github.com/matheus</em>
+              </span>
+            </a>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <p class="footer__brand">
+        <span class="nav__logo-mark">MH</span>
+        Matheus Henrique Alves Silva
+      </p>
+      <p class="footer__copy">© <span id="year"></span> — Todos os direitos reservados.</p>
+      <a href="#hero" class="footer__top" aria-label="Voltar ao topo">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante voltar ao topo -->
+  <button class="to-top" id="toTop" aria-label="Voltar ao topo">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
